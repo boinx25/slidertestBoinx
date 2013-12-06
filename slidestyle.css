@@ -1,0 +1,47 @@
+body
+{
+	background: url("resources/Background.jpg");
+}
+
+img
+{
+	border:10px solid white;
+}
+.content
+{
+	width: 1030px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top:100px;
+}
+
+.slider
+{
+
+	overflow: hidden;
+	width:2000px;
+	height:480px;
+	margin:0 auto;
+		
+}
+
+.navigation
+{
+	position:absolute;
+	top:300px;
+	left:630px;
+	height:50px;
+	width:600px;
+}
+
+#left
+{
+	background:url("resources/leftarrow.png") no-repeat center;
+	left:-180px;
+}
+
+#right
+{
+	background:url("resources/rightarrow.png") no-repeat center;
+	left:880px;
+}
