@@ -4,7 +4,7 @@ $(document).ready(function()
 	
 	function onNext()
 	{
-		$(".slider").animate({"margin-left":"-34%"},200,function()
+		$(".slider").animate({"margin-left":"-327px"},200,function()
 		{
 			 $(".sliderContent:first-child").appendTo(".slider");
              $(".slider").css("margin-left", "0px");                
@@ -15,7 +15,7 @@ $(document).ready(function()
 	function onPrev()
 	{
 			$(".sliderContent:last-child").prependTo(".slider");
-			$(".slider").css("margin-left","-34%");
+			$(".slider").css("margin-left","-327px");
 
 			$(".slider").animate({"margin-left":"0px"},200);
 		
